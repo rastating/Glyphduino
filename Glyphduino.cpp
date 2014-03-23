@@ -104,6 +104,28 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[6] = 0b11111;
 			array[7] = 0b11111;
 			break;
+
+		case GLYPHDUINO_HEART:
+			array[0] = 0b00000,
+			array[1] = 0b01010;
+			array[2] = 0b11111;
+			array[3] = 0b11111;
+			array[4] = 0b01110;
+			array[5] = 0b00100;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_HEART_EMPTY:
+			array[0] = 0b00000,
+			array[1] = 0b01010;
+			array[2] = 0b10101;
+			array[3] = 0b10001;
+			array[4] = 0b01010;
+			array[5] = 0b00100;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
 	}
 }
 
@@ -117,7 +139,7 @@ void Glyphduino::registerGlyph(uint8_t num, uint8_t glyphId)
 
 void Glyphduino::printGlyph(uint8_t glyphId, int8_t col, int8_t row)
 {
-	uint8_t characterIndex = -1;
+	int8_t characterIndex = -1;
 	for (uint8_t i = 0; i < 8; i++)
 	{
 		if (registrationMap[i] == glyphId)
