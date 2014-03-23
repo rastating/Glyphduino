@@ -148,6 +148,50 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[6] = 0b11110;
 			array[7] = 0b00000;
 			break;
+
+		case GLYPHDUINO_BELL:
+			array[0] = 0b00100;
+			array[1] = 0b01110;
+			array[2] = 0b01110;
+			array[3] = 0b01110;
+			array[4] = 0b11111;
+			array[5] = 0b00000;
+			array[6] = 0b00100;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_SPEAKER:
+			array[0] = 0b00000;
+			array[1] = 0b00010;
+			array[2] = 0b00110;
+			array[3] = 0b01110;
+			array[4] = 0b01110;
+			array[5] = 0b00110;
+			array[6] = 0b00010;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_CROSS:
+			array[0] = 0b00000;
+			array[1] = 0b11011;
+			array[2] = 0b01110;
+			array[3] = 0b00100;
+			array[4] = 0b01110;
+			array[5] = 0b11011;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_TICK:
+			array[0] = 0b00000;
+			array[1] = 0b00001;
+			array[2] = 0b00011;
+			array[3] = 0b10110;
+			array[4] = 0b11100;
+			array[5] = 0b01000;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
 	}
 }
 

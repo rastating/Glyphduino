@@ -26,6 +26,10 @@ const uint8_t GLYPHDUINO_HEART_EMPTY = 7;
 const uint8_t GLYPHDUINO_CLOCK = 8;
 const uint8_t GLYPHDUINO_MUSIC_NOTE = 9;
 const uint8_t GLYPHDUINO_DOGECOIN = 10;
+const uint8_t GLYPHDUINO_BELL = 11;
+const uint8_t GLYPHDUINO_SPEAKER = 12;
+const uint8_t GLYPHDUINO_CROSS = 13;
+const uint8_t GLYPHDUINO_TICK = 14;
 
 class Glyphduino
 {
