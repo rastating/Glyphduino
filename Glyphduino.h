@@ -30,6 +30,10 @@ const uint8_t GLYPHDUINO_BELL = 11;
 const uint8_t GLYPHDUINO_SPEAKER = 12;
 const uint8_t GLYPHDUINO_CROSS = 13;
 const uint8_t GLYPHDUINO_TICK = 14;
+const uint8_t GLYPHDUINO_ARROW_NE = 15;
+const uint8_t GLYPHDUINO_ARROW_NW = 16;
+const uint8_t GLYPHDUINO_ARROW_SW = 17;
+const uint8_t GLYPHDUINO_ARROW_SE = 18;
 
 class Glyphduino
 {
