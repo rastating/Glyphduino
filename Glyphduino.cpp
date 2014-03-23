@@ -106,7 +106,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			break;
 
 		case GLYPHDUINO_HEART:
-			array[0] = 0b00000,
+			array[0] = 0b00000;
 			array[1] = 0b01010;
 			array[2] = 0b11111;
 			array[3] = 0b11111;
@@ -117,13 +117,35 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			break;
 
 		case GLYPHDUINO_HEART_EMPTY:
-			array[0] = 0b00000,
+			array[0] = 0b00000;
 			array[1] = 0b01010;
 			array[2] = 0b10101;
 			array[3] = 0b10001;
 			array[4] = 0b01010;
 			array[5] = 0b00100;
 			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_CLOCK:
+			array[0] = 0b00000;
+			array[1] = 0b01110;
+			array[2] = 0b10101;
+			array[3] = 0b10111;
+			array[4] = 0b10001;
+			array[5] = 0b01110;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_MUSIC_NOTE:
+			array[0] = 0b00010;
+			array[1] = 0b00011;
+			array[2] = 0b00010;
+			array[3] = 0b00010;
+			array[4] = 0b01110;
+			array[5] = 0b11110;
+			array[6] = 0b01100;
 			array[7] = 0b00000;
 			break;
 	}

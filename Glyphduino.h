@@ -24,6 +24,8 @@ const uint8_t GLYPHDUINO_BATTERY_5_BAR = 5;
 const uint8_t GLYPHDUINO_BATTERY_FULL = 6;
 const uint8_t GLYPHDUINO_HEART = 7;
 const uint8_t GLYPHDUINO_HEART_EMPTY = 8;
+const uint8_t GLYPHDUINO_CLOCK = 9;
+const uint8_t GLYPHDUINO_MUSIC_NOTE = 10;
 
 class Glyphduino
 {
