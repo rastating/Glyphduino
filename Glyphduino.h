@@ -20,12 +20,12 @@ const uint8_t GLYPHDUINO_BATTERY_1_BAR = 1;
 const uint8_t GLYPHDUINO_BATTERY_2_BAR = 2;
 const uint8_t GLYPHDUINO_BATTERY_3_BAR = 3;
 const uint8_t GLYPHDUINO_BATTERY_4_BAR = 4;
-const uint8_t GLYPHDUINO_BATTERY_5_BAR = 5;
-const uint8_t GLYPHDUINO_BATTERY_FULL = 6;
-const uint8_t GLYPHDUINO_HEART = 7;
-const uint8_t GLYPHDUINO_HEART_EMPTY = 8;
-const uint8_t GLYPHDUINO_CLOCK = 9;
-const uint8_t GLYPHDUINO_MUSIC_NOTE = 10;
+const uint8_t GLYPHDUINO_BATTERY_FULL = 5;
+const uint8_t GLYPHDUINO_HEART = 6;
+const uint8_t GLYPHDUINO_HEART_EMPTY = 7;
+const uint8_t GLYPHDUINO_CLOCK = 8;
+const uint8_t GLYPHDUINO_MUSIC_NOTE = 9;
+const uint8_t GLYPHDUINO_DOGECOIN = 10;
 
 class Glyphduino
 {

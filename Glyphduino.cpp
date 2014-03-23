@@ -35,8 +35,8 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[3] = 0b10001;
 			array[4] = 0b10001;
 			array[5] = 0b10001;
-			array[6] = 0b10001;
-			array[7] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
 		case GLYPHDUINO_BATTERY_1_BAR:
@@ -45,9 +45,9 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[2] = 0b10001;
 			array[3] = 0b10001;
 			array[4] = 0b10001;
-			array[5] = 0b10001;
+			array[5] = 0b11111;
 			array[6] = 0b11111;
-			array[7] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
 		case GLYPHDUINO_BATTERY_2_BAR:
@@ -55,24 +55,13 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[1] = 0b11011;
 			array[2] = 0b10001;
 			array[3] = 0b10001;
-			array[4] = 0b10001;
-			array[5] = 0b11111;
-			array[6] = 0b11111;
-			array[7] = 0b11111;
-			break;
-
-		case GLYPHDUINO_BATTERY_3_BAR:
-			array[0] = 0b01110;
-			array[1] = 0b11011;
-			array[2] = 0b10001;
-			array[3] = 0b10001;
 			array[4] = 0b11111;
 			array[5] = 0b11111;
 			array[6] = 0b11111;
-			array[7] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
-		case GLYPHDUINO_BATTERY_4_BAR:
+		case GLYPHDUINO_BATTERY_3_BAR:
 			array[0] = 0b01110;
 			array[1] = 0b11011;
 			array[2] = 0b10001;
@@ -80,10 +69,10 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[4] = 0b11111;
 			array[5] = 0b11111;
 			array[6] = 0b11111;
-			array[7] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
-		case GLYPHDUINO_BATTERY_5_BAR:
+		case GLYPHDUINO_BATTERY_4_BAR:
 			array[0] = 0b01110;
 			array[1] = 0b11011;
 			array[2] = 0b11111;
@@ -91,7 +80,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[4] = 0b11111;
 			array[5] = 0b11111;
 			array[6] = 0b11111;
-			array[7] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
 		case GLYPHDUINO_BATTERY_FULL:
@@ -102,7 +91,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[4] = 0b11111;
 			array[5] = 0b11111;
 			array[6] = 0b11111;
-			array[7] = 0b11111;
+			array[7] = 0b00000;
 			break;
 
 		case GLYPHDUINO_HEART:
@@ -146,6 +135,17 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[4] = 0b01110;
 			array[5] = 0b11110;
 			array[6] = 0b01100;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_DOGECOIN:
+			array[0] = 0b11110;
+			array[1] = 0b01001;
+			array[2] = 0b11001;
+			array[3] = 0b01001;
+			array[4] = 0b11001;
+			array[5] = 0b01001;
+			array[6] = 0b11110;
 			array[7] = 0b00000;
 			break;
 	}
