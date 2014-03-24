@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Varela'), url(Varela.woff) format('woff');
+}

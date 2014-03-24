@@ -1,0 +1,160 @@
+body, h1, h2 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+	background-color: #FFFFFF;
+}
+
+@media all and (min-width: 1024px) {
+	#container {
+		width: 1024px;
+		margin: 0 auto;
+	}
+
+	#banner {
+		height: 500px;
+	}
+
+	#banner h1 {
+		padding-top: 150px;
+	}
+
+	#banner #logo {
+		float: right;
+		display: inherit;
+	}
+
+	#footer {
+		text-align: right;
+	}
+
+	.supported-glyphs {
+		margin-left: 50px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	#container {
+		width: 100%;
+	}
+
+	#banner {
+		height: auto;
+		padding-bottom: 50px;
+		margin: 25px;
+		text-align: center;
+	}
+
+	#content {
+		margin: 25px;
+	}
+	
+	#banner #logo {
+		display: none;
+	}
+
+	#footer {
+		text-align: center;
+	}
+}
+
+#banner h1 {
+	color: #000000;
+	letter-spacing: -2px;
+	font-size: 90px;
+}
+
+#banner h2 {
+	color: #77757F;
+	letter-spacing: -2px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+#banner h1, #banner h2 {
+	text-transform: lowercase;
+}
+
+#content p, .supported-glyphs {
+	font-family: 'Varela', sans-serif;
+	text-align: left;
+}
+
+#footer {
+	font-family: 'Varela', sans-serif;
+	font-size: 14px;
+	margin-top: 60px;
+	color: #77757F;
+	padding-bottom: 25px;
+}
+
+#clearfix {
+	clear: both;
+}
+
+.button {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 7px 10px;
+	text-transform: none;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	width: 172px;
+	text-align: center;
+}
+
+.button.red {
+	background: none repeat scroll 0 0 #e0645c;
+	color: white;
+}
+
+.button.red:hover {
+	background: none repeat scroll 0 0 #999999;
+	color: white;
+}
+
+.button.blue {
+	background: none repeat scroll 0 0 #2db6cf;
+	color: white;
+}
+
+.button.blue:hover {
+	background: none repeat scroll 0 0 #444444;
+	color: white;
+}
+
+a {
+	color: #f03838;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444444;
+}
+
+.example-image {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px; 
+	width: 300px;
+}
+
+.glyph {
+	display: inline-block;
+	width: 320px;
+}
+
+.glyph p img {
+	float: left; 
+	padding-right: 10px;
+}
