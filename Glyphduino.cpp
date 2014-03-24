@@ -161,13 +161,13 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			break;
 
 		case GLYPHDUINO_SPEAKER:
-			array[0] = 0b00000;
-			array[1] = 0b00010;
-			array[2] = 0b00110;
-			array[3] = 0b01110;
-			array[4] = 0b01110;
-			array[5] = 0b00110;
-			array[6] = 0b00010;
+			array[0] = 0b00001;
+			array[1] = 0b00011;
+			array[2] = 0b01111;
+			array[3] = 0b01111;
+			array[4] = 0b01111;
+			array[5] = 0b00011;
+			array[6] = 0b00001;
 			array[7] = 0b00000;
 			break;
 
