@@ -34,6 +34,10 @@ const uint8_t GLYPHDUINO_ARROW_NE = 15;
 const uint8_t GLYPHDUINO_ARROW_NW = 16;
 const uint8_t GLYPHDUINO_ARROW_SW = 17;
 const uint8_t GLYPHDUINO_ARROW_SE = 18;
+const uint8_t GLYPHDUINO_LOCK = 19;
+const uint8_t GLYPHDUINO_LOCK_UNLOCKED = 20;
+const uint8_t GLYPHDUINO_OHM = 21;
+const uint8_t GLYPHDUINO_PI = 22;
 
 class Glyphduino
 {

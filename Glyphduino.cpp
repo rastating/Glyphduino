@@ -236,6 +236,50 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[6] = 0b00000;
 			array[7] = 0b00000;
 			break;
+
+		case GLYPHDUINO_LOCK:
+			array[0] = 0b01110;
+			array[1] = 0b10001;
+			array[2] = 0b10001;
+			array[3] = 0b11111;
+			array[4] = 0b11011;
+			array[5] = 0b11011;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_LOCK_UNLOCKED:
+			array[0] = 0b01110;
+			array[1] = 0b10000;
+			array[2] = 0b10000;
+			array[3] = 0b11111;
+			array[4] = 0b11011;
+			array[5] = 0b11011;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_OHM:
+			array[0] = 0b00000;
+			array[1] = 0b01110;
+			array[2] = 0b10001;
+			array[3] = 0b10001;
+			array[4] = 0b01010;
+			array[5] = 0b11011;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_PI:
+			array[0] = 0b00000;
+			array[1] = 0b11111;
+			array[2] = 0b01010;
+			array[3] = 0b01010;
+			array[4] = 0b01010;
+			array[5] = 0b10011;
+			array[6] = 0b00000;
+			array[7] = 0b00000;
+			break;
 	}
 }
 
