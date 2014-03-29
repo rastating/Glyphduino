@@ -38,6 +38,13 @@ const uint8_t GLYPHDUINO_LOCK = 19;
 const uint8_t GLYPHDUINO_LOCK_UNLOCKED = 20;
 const uint8_t GLYPHDUINO_OHM = 21;
 const uint8_t GLYPHDUINO_PI = 22;
+const uint8_t GLYPHDUINO_BAR_1 = 23;
+const uint8_t GLYPHDUINO_BAR_2 = 24;
+const uint8_t GLYPHDUINO_BAR_3 = 25;
+const uint8_t GLYPHDUINO_BAR_4 = 26;
+const uint8_t GLYPHDUINO_BAR_5 = 27;
+const uint8_t GLYPHDUINO_BAR_6 = 28;
+const uint8_t GLYPHDUINO_BAR_7 = 29;
 
 class Glyphduino
 {

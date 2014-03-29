@@ -280,6 +280,83 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[6] = 0b00000;
 			array[7] = 0b00000;
 			break;
+
+		case GLYPHDUINO_BAR_1:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b00000;
+			array[3] = 0b00000;
+			array[4] = 0b00000;
+			array[5] = 0b00000;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_2:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b00000;
+			array[3] = 0b00000;
+			array[4] = 0b00000;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_3:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b00000;
+			array[3] = 0b00000;
+			array[4] = 0b11111;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_4:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b00000;
+			array[3] = 0b11111;
+			array[4] = 0b11111;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_5:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b11111;
+			array[3] = 0b11111;
+			array[4] = 0b11111;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_6:
+			array[0] = 0b00000;
+			array[1] = 0b11111;
+			array[2] = 0b11111;
+			array[3] = 0b11111;
+			array[4] = 0b11111;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
+
+		case GLYPHDUINO_BAR_7:
+			array[0] = 0b11111;
+			array[1] = 0b11111;
+			array[2] = 0b11111;
+			array[3] = 0b11111;
+			array[4] = 0b11111;
+			array[5] = 0b11111;
+			array[6] = 0b11111;
+			array[7] = 0b00000;
+			break;
 	}
 }
 
