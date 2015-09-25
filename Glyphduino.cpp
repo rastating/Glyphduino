@@ -358,7 +358,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[7] = 0b00000;
 			break;
 
-		case GLYPHDUINO_THERMO:
+		case GLYPHDUINO_THERMOMETER:
 			array[0] = 0b00100;
 			array[1] = 0b01010;
 			array[2] = 0b01010;
@@ -369,7 +369,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[7] = 0b01110;
 			break;
 
-    case GLYPHDUINO_HUM0:
+    		case GLYPHDUINO_HUMIDITY_0:
 			array[0] = 0b00100;
 			array[1] = 0b00100;
 			array[2] = 0b01010;
@@ -380,7 +380,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[7] = 0b01110;
 			break;
 
-    case GLYPHDUINO_HUM50:
+		case GLYPHDUINO_HUMIDITY_50:
 			array[0] = 0b00100;
 			array[1] = 0b00100;
 			array[2] = 0b01010;
@@ -391,7 +391,7 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			array[7] = 0b01110;
 			break;
 
-    case GLYPHDUINO_HUM100:
+		case GLYPHDUINO_HUMIDITY_100:
 			array[0] = 0b00100;
 			array[1] = 0b00100;
 			array[2] = 0b01110;

@@ -45,10 +45,10 @@ const uint8_t GLYPHDUINO_BAR_4 = 26;
 const uint8_t GLYPHDUINO_BAR_5 = 27;
 const uint8_t GLYPHDUINO_BAR_6 = 28;
 const uint8_t GLYPHDUINO_BAR_7 = 29;
-const uint8_t GLYPHDUINO_THERMO = 30;
-const uint8_t GLYPHDUINO_HUM0 = 31;
-const uint8_t GLYPHDUINO_HUM50 = 32;
-const uint8_t GLYPHDUINO_HUM100 = 33;
+const uint8_t GLYPHDUINO_THERMOMETER = 30;
+const uint8_t GLYPHDUINO_HUMIDITY_0 = 31;
+const uint8_t GLYPHDUINO_HUMIDITY_50 = 32;
+const uint8_t GLYPHDUINO_HUMIDITY_100 = 33;
 
 
 class Glyphduino
