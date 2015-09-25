@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 
-#include "../LiquidCrystal/LiquidCrystal.h"
+#include "../LiquidCrystal/src/LiquidCrystal.h"
 
 const uint8_t GLYPHDUINO_BATTERY_EMPTY = 0;
 const uint8_t GLYPHDUINO_BATTERY_1_BAR = 1;
@@ -45,6 +45,11 @@ const uint8_t GLYPHDUINO_BAR_4 = 26;
 const uint8_t GLYPHDUINO_BAR_5 = 27;
 const uint8_t GLYPHDUINO_BAR_6 = 28;
 const uint8_t GLYPHDUINO_BAR_7 = 29;
+const uint8_t GLYPHDUINO_THERMOMETER = 30;
+const uint8_t GLYPHDUINO_HUMIDITY_0 = 31;
+const uint8_t GLYPHDUINO_HUMIDITY_50 = 32;
+const uint8_t GLYPHDUINO_HUMIDITY_100 = 33;
+
 
 class Glyphduino
 {
