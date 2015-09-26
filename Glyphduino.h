@@ -49,6 +49,15 @@ const uint8_t GLYPHDUINO_THERMOMETER = 30;
 const uint8_t GLYPHDUINO_HUMIDITY_0 = 31;
 const uint8_t GLYPHDUINO_HUMIDITY_50 = 32;
 const uint8_t GLYPHDUINO_HUMIDITY_100 = 33;
+const uint8_t GLYPHDUINO_ANCHOR = 34;
+const uint8_t GLYPHDUINO_THETA_LOWERCASE = 35;
+const uint8_t GLYPHDUINO_MU_LOWERCASE = 36;
+const uint8_t GLYPHDUINO_SIGMA_UPPERCASE = 37;
+const uint8_t GLYPHDUINO_KEY = 38;
+const uint8_t GYLPHDUINO_WIFI = 39;
+const uint8_t GLYPHDUINO_BLUETOOTH = 40;
+const uint8_t GLYPHDUINO_GLIDER = 41;
+const uint8_t GLYPHDUINO_NFC = 42;
 
 
 class Glyphduino
