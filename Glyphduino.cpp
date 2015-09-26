@@ -445,6 +445,61 @@ void Glyphduino::getGlyph(uint8_t glyphId, unsigned char* array)
 			 array[6] = 0b11111;
 			 array[7] = 0b00000;
 			 break;
+
+		case GLYPHDUINO_KEY:
+			array[0] = 0b01110;
+			array[1] = 0b10001;
+			array[2] = 0b01010;
+			array[3] = 0b00100;
+			array[4] = 0b00100;
+			array[5] = 0b01100;
+			array[6] = 0b00100;
+			array[7] = 0b01100;
+			break;
+
+		case GYLPHDUINO_WIFI:
+			array[0] = 0b01110;
+			array[1] = 0b10001;
+			array[2] = 0b00100;
+			array[3] = 0b01010;
+			array[4] = 0b00000;
+			array[5] = 0b01110;
+			array[6] = 0b00100;
+			array[7] = 0b00100;
+			break;
+
+		case GLYPHDUINO_BLUETOOTH:
+			array[0] = 0b00000;
+			array[1] = 0b00100;
+			array[2] = 0b10110;
+			array[3] = 0b01101;
+			array[4] = 0b00110;
+			array[5] = 0b01101;
+			array[6] = 0b10110;
+			array[7] = 0b00100;
+			break;
+
+		case GLYPHDUINO_GLIDER:
+			array[0] = 0b00000;
+			array[1] = 0b00000;
+			array[2] = 0b01100;
+			array[3] = 0b01100;
+			array[4] = 0b00011;
+			array[5] = 0b00011;
+			array[6] = 0b11111;
+			array[7] = 0b11111;
+			break;
+
+		case GLYPHDUINO_NFC:
+			array[0] = 0b00110;
+			array[1] = 0b10011;
+			array[2] = 0b11001;
+			array[3] = 0b11101;
+			array[4] = 0b10111;
+			array[5] = 0b10011;
+			array[6] = 0b11001;
+			array[7] = 0b01100;
+		break;
 	}
 }
 

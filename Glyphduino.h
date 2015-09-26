@@ -53,6 +53,11 @@ const uint8_t GLYPHDUINO_ANCHOR = 34;
 const uint8_t GLYPHDUINO_THETA_LOWERCASE = 35;
 const uint8_t GLYPHDUINO_MU_LOWERCASE = 36;
 const uint8_t GLYPHDUINO_SIGMA_UPPERCASE = 37;
+const uint8_t GLYPHDUINO_KEY = 38;
+const uint8_t GYLPHDUINO_WIFI = 39;
+const uint8_t GLYPHDUINO_BLUETOOTH = 40;
+const uint8_t GLYPHDUINO_GLIDER = 41;
+const uint8_t GLYPHDUINO_NFC = 42;
 
 
 class Glyphduino
